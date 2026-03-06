@@ -48,7 +48,7 @@ var Routes = map[area.ID][]Route{
 	// Act 2
 	area.SewersLevel1Act2: {{Move(area.LutGholein), Clear(area.SewersLevel1Act2), Clear(area.SewersLevel2Act2), Clear(area.SewersLevel3Act2)}},
 	area.DryHills:         {{Clear(area.DryHills), Clear(area.HallsOfTheDeadLevel1), Clear(area.HallsOfTheDeadLevel2), Clear(area.HallsOfTheDeadLevel3)}},
-	area.FarOasis:         {{Clear(area.FarOasis)}},
+	area.FarOasis:         {{Clear(area.FarOasis), Clear(area.MaggotLairLevel1), Clear(area.MaggotLairLevel2), Clear(area.MaggotLairLevel3)}},
 	area.LostCity:         {{Clear(area.LostCity), Clear(area.ValleyOfSnakes), Clear(area.ClawViperTempleLevel1), Clear(area.ClawViperTempleLevel2)}},
 	area.RockyWaste:       {{Move(area.DryHills), Clear(area.RockyWaste), Clear(area.StonyTombLevel1), Clear(area.StonyTombLevel2)}},
 	// TalRashasTombs, AncientTunnels, Stonytomb -> terror_zone.go -> NewPit().Run() ect...
