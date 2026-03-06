@@ -69,7 +69,7 @@ func (tz TerrorZone) Run(parameters *RunParameters) error {
 		return NewDuriel().Run(parameters)
 	case area.DuranceOfHateLevel3:
 		return NewMephisto(nil).Run(parameters)
-	case area.TheWorldStoneKeepLevel1:
+	case area.TheWorldstoneChamber:
 		return NewBaal(nil).Run(parameters)
 	}
 
